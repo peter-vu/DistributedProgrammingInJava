@@ -1,0 +1,11 @@
+1	B. Server initializes a ServerSocket, Client initializes a Socket.
+2	D. The Server and Client each have an OutputStream and InputStream.
+3	B. Implement Serializable
+4	B. It means that specific variable in the serialized object will not be initialized.
+5	D. Both x and y
+6	A. Allows the client to remotely call methods on the server’s object.
+	B. It's a local object on the client's JVM created to represent the remote object that lives on the server’s JVM.
+7	B. It is generally more efficient to use one Multicast Socket than multiple Unicast Sockets
+8	B. A DatagramPacket message can be sent to all members of a given group
+9	B. Brokers.
+10	D. All of the above.

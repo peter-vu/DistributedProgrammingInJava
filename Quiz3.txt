@@ -1,0 +1,40 @@
+1	B. Node 0’s local view will be half the size of the global view, and will only store 2 elements of the logical array. However, which two elements it will store is up to the programmer and is referred to as the data distribution.
+2	False
+3	C. By querying for the MPI rank of the current node
+4	A. Send	
+	C. Receive
+5	A. P0
+6	
+B. Send X to P1 and Send Y to P0    
+E. Recv Z from P2 and Send Y to P0
+
+
+7
+C. They reduce the possibility of deadlock
+D. They can increase parallelism
+
+8 	
+D. One can emulate blocking Send and Recv calls by immediately calling any variety of Wait after a call to ISend or IRecv
+9	
+A. 1 and 4
+
+wrong:
+B. 1, 3, and 4
+C. 1 and 3
+D. 2 and 3
+
+10	C. MPI collectives offer optimized and succinct implementations of common, distributed operations.
+
+
+
+
+Question 9
+Which of the following is true for MPI’s broadcast and reduce collectives?   
+
+1.     A broadcast sends data from one node to all nodes, while a reduce sends data from all nodes to one node.
+
+2.     Both broadcast and reduce apply some mathematical transformation to their inputs to produce an output.
+
+3.     A broadcast can transmit many integers at once, but a reduce can only be applied to one integer at a time.
+
+4.     In both, the root parameter specifies a main process that either sends or receives all data. 

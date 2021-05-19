@@ -1,0 +1,10 @@
+1	A. For each input value, the average corresponding input key.	
+2	D. For each input value, the words and the line numbers they appear in.
+3	A. Hadoop is able to provide strong fault tolerance because map-reduce is a functional operation.
+4	C. Group 1: (the, 1) and (the, 1). Group 2: (dog, 1). Group 3: (chased, 1). Group 4: (cat, 1).
+5	B. Spark benefits from using nodes with large memory.
+6	B. Reduce, D. Collect
+7	A. The inverse document frequency ensures that words appearing across many documents are discounted in comparison to words that are unique to a few documents. 
+8	A. I and II
+9	A. For a set of (key, value) pairs, groups all values that have the same key and then applies a reduction operator to collapse those values into a single value. A single (key, value) pair is then emitted per key.
+10	Spark is optimized for iterative, in-memory workloads. Page Rank is an example of one.

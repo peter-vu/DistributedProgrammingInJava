@@ -1,0 +1,10 @@
+1	A, B, E
+2	False
+3	A, C
+4	D
+5	C
+6	A
+7	B
+8	B, C 
+9	C
+10 	D
